@@ -1,0 +1,9 @@
+$NetBSD: distinfo,v 1.11 2025/05/04 05:55:49 vins Exp $
+
+BLAKE2s (upower-v1.90.9.tar.bz2) = 6dc6fa5fb37914fb9c66059b8da90272d02c106a6a7fbca19a03691906ceb961
+SHA512 (upower-v1.90.9.tar.bz2) = 7308e03125a5a888242253f9260f68283f5b53677c08dbc4d7e4d48cc6f600f50f8ab161d100f152138208d5119acddc90f0f19742aa8cca58e3a0ec54975110
+Size (upower-v1.90.9.tar.bz2) = 154756 bytes
+SHA1 (patch-etc_meson.build) = 45108a898e21f4107bf3e994f63a9ca46e49d571
+SHA1 (patch-meson.build) = 486ef607767da6108634b5ce49ed5967a1baa6f8
+SHA1 (patch-meson__options.txt) = 0c1710fcdb8ab562b6443c9baa92cdb20ba0b917
+SHA1 (patch-src_meson.build) = 1076bf2b41b340a2cc1856ac69b4ed86e42212a3

@@ -1,0 +1,18 @@
+$NetBSD$
+
+--- meson_options.txt.orig	2025-04-10 03:35:54.000000000 -0300
++++ meson_options.txt	2026-04-13 16:36:51.050266289 -0300
+@@ -27,9 +27,12 @@
+ option('systemdsystemunitdir',
+        type : 'string',
+        description : 'Directory for systemd service files ("no" to disable)')
++option('egdir',
++       type : 'string',
++       description : 'Directory for upower sample configuration files')
+ option('os_backend',
+        type : 'combo',
+-       choices : [ 'auto', 'linux', 'freebsd', 'openbsd', 'dummy'],
++       choices : [ 'auto', 'linux', 'freebsd', 'openbsd', 'netbsd', 'dummy'],
+        value : 'auto',
+        description : 'Directory for systemd service files')
+ option('idevice',

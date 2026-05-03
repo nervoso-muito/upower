@@ -1,0 +1,15 @@
+$NetBSD$
+
+Add NetBSD to auto-detected backends.
+
+--- /tmp/upower-v1.90.9/meson.build	2025-04-10 03:35:54.000000000 -0300
++++ meson.build	2026-04-13 16:36:51.053586466 -0300
+@@ -63,7 +63,7 @@
+ os_backend = get_option('os_backend')
+ if os_backend == 'auto'
+   # Likely needs to be updated when options are added
+-  if host_machine.system() in ['linux', 'freebsd', 'openbsd']
++  if host_machine.system() in ['linux', 'freebsd', 'openbsd', 'netbsd']
+     os_backend = host_machine.system()
+   else
+     os_backend = 'dummy'
